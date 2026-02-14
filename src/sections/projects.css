@@ -127,6 +127,17 @@
     transform: translateX(4px);
 }
 
+/* GitHub link variant */
+.project-link-github svg {
+    width: 18px;
+    height: 18px;
+    transition: transform var(--transition-fast);
+}
+
+.project-link-github:hover svg {
+    transform: scale(1.15) rotate(-8deg);
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .projects-grid {
